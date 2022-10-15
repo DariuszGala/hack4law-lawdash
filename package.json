@@ -1,0 +1,50 @@
+{
+  "name": "hack4law-lawdash",
+  "version": "1.0.0",
+  "description": "Law Dash team project for #hack4law competition",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariuszGala/hack4law-lawdash.git"
+  },
+  "keywords": [
+    "law",
+    "it",
+    "hack4law",
+    "dev",
+    "legal",
+    "competition"
+  ],
+  "author": "Dariusz Gala, Klaudia Surmacz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DariuszGala/hack4law-lawdash/issues"
+  },
+  "homepage": "https://github.com/DariuszGala/hack4law-lawdash#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.40.0",
+    "@vitejs/plugin-react": "2.1.0",
+    "eslint": "8.25.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard-with-typescript": "23.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.3.0",
+    "eslint-plugin-promise": "6.1.0",
+    "eslint-plugin-react": "7.31.10",
+    "prettier": "2.7.1",
+    "typescript": "4.8.4",
+    "vite": "3.1.0"
+  }
+}
