@@ -5,8 +5,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,4 +21,74 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.Button {
+  height: 50px;
+  font-size: 16px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.Question {
+  margin: 16px;
+  font-weight: bold;
+}
+
+.Section {
+  margin: 20px;
+}
+
+.Choices {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.Choice {
+  border-radius: 4px;
+  width: 250px;
+  height: 50px;
+  margin: 0 8px;
+  background-color: white;
+  border: 1px solid lightslategrey;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.Choice--Selected {
+  background-color: beige;
+}
+
+.Choice:hover {
+  background-color: beige;
+}
+
+.Input {
+  width: 400px;
+  font-size: 16px;
+  color: #242424;
+  background: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  outline: 1px lightslategrey;
+}
+
+.Result {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 24px;
+  padding: 16px;
+  min-height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 1px solid lightslategrey;
+  flex-direction: column;
 }

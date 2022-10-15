@@ -19,5 +19,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    "@typescript-eslint/prefer-ts-expect-error": 0,
+    '@typescript-eslint/strict-boolean-expressions': 0,
+    '@typescript-eslint/no-misused-promises': 0,
   }
 }

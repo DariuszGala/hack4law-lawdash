@@ -1,0 +1,7 @@
+###
+POST http://localhost:5174/case
+Content-Type: application/json
+
+{
+   "question": "Chciałbym wnieść pozew o spłatę zadłużenia"
+}
